@@ -16,13 +16,13 @@ sections:
     content:
       title: Skills
       items:
-        - name: Компьютерные науки
+        - name: Computer Science
           description: 60%
           icon: stack-overflow
-        - name: Рисование
+        - name: Drawing
           description: 80%
           icon: palette
-        - name: Создание проектов
+        - name: Project Management
           description: 95%
           icon: list-check
   - block: experience
@@ -37,19 +37,18 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Студентка направления "Компьютерные и информационные науки"
-          company: РУДН
+        - title: The student of course "Computer and Information Science"
+          company: PFUR
           company_url: 'https://rudn.ru/'
           company_logo: org-gc
           location: Moscow, Russia
           date_start: '2022-09-01'
           date_end: ''
           description: |2-
-              Изучаемые дисциплины:
+              Disciplines:
 
-              * Математика
-              * Информатика
-              * Общеобразовательные предметы
+              * Mathematics
+              * IT
     design:
       columns: '2'
   - block: accomplishments
@@ -68,10 +67,10 @@ sections:
         - certificate_url: https://www.coursera.org
           date_end: ''
           date_start: '2021-01-25'
-          description: 'Успешное прохождение курса: Основы программирования на Python'
+          description: 'Finishing the course: The basis of Python Programming'
           organization: Coursera
           organization_url: https://www.coursera.org
-          title: "Основы программирования на Python"
+          title: "The basis of Python Programming"
           url: ''
     design:
       columns: '2'

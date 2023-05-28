@@ -1,9 +1,9 @@
 ---
-title: "Пост по прошедшей неделе 4.0"
-subtitle: Эта неделя была крутой! Скорее читайте, что же произошло.
+title: "Post about last week 4.0"
+subtitle: This week was cool! Read the article.
 
 # Summary for listings and search engines
-summary: Эта неделя выдалась насыщенной на события! Чтобы узнать подробнее, читайте дальше!
+summary: This week was cool! Read the article!
 
 # Link this post with a project
 projects: []
@@ -32,39 +32,40 @@ authors:
   - admin
 
 tags:
-  - неделя
-  - айти
-  - учёба
+  - week
+  - IT
+  - studying
 
 categories:
   - Demo
 ---
 
-## Пост по прошедшей неделе
+## Last week's post
 
-### Понедельник
+### Monday
 
-  В понедельник у нас был выходной. Поэтому я отправилась гулять с друзьями утром, затем сделала домашнее задание, а вечером мы с подругой пошли в театр.
+  We had a day off on Monday. So I went for a walk with friends in the morning, then did my homework, and in the evening my friend and I went to the theater.
   
-### Вторник
+### Tuesday
 
-  С утра я поехала в университет. Первой парой у нас был матанализ, а второй - компьютерная алгебра. Затем я пошла на тренировку: там я вдоволь побегала, сделала силовые упражнения, в общем, провела время с пользой для своего здоровья. Мне понравился день!
-  
-  
-### Среда
+  In the morning I went to the university. The first pair we had was matanalysis, and the second was computer algebra. Then I went to training: there I ran a lot, did strength exercises, in general, spent time with benefits for my health. I enjoyed the day!
 
-  А в среду у нас тоже были всего 2 пары утром - аналитическая геометрия и математическая логика. Эти предметы я обожаю, поэтому на этих парах время для меня летит незаметно.
-  
-  
-### Четверг
 
-  Утром я пришла ко второй паре - технологии программирования. Она оказалась интересной, мы проходили матрицы и писали некоторые операторы для них. Затем у нас был перерыв, а после - пара лекции по матанализу.
-  
-  
-### Пятница
+### Wednesday
 
-  Сегодня я решила дать себе возможность отдохнуть, и не пошла на пары по модулю переводчика. Я отправилась к дяде в гости и поделала некоторое домашнее задание.
+  And on Wednesday we also had only 2 pairs in the morning - analytical geometry and mathematical logic. I adore these items, so time flies unnoticed for me on these pairs.
+  
+  
+### Thursday
+
+  In the morning I came to the second pair - programming technology. It turned out to be interesting, we went through matrices and wrote some operators for them. Then we had a break, and after that - a couple of lectures on matanalysis.
+  
+  
+### Friday
+
+  Today I decided to give myself the opportunity to relax, and I did not go to pairs on the translator module. I went to visit my uncle and did some homework.
   
 ### P.S.
 
-  Благодарю за прочтение! Подпишитесь, чтобы не пропускать выходы новых постов!
+  Thank you for reading! Subscribe so as not to miss the releases of new posts!
+

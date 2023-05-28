@@ -1,9 +1,9 @@
 ---
-title: "Пост по прошедшей неделе 2.0"
-subtitle: Эта неделя выдалась насыщенной на события! Чтобы узнать подробнее, читайте дальше!
+title: "Post about last week 2.0"
+subtitle: This week was full of events. To learn more, read the article!
 
 # Summary for listings and search engines
-summary: Эта неделя выдалась насыщенной на события! Чтобы узнать подробнее, читайте дальше!
+summary: This week was full of events. To learn more, read the article!
 
 # Link this post with a project
 projects: []
@@ -32,41 +32,42 @@ authors:
   - admin
 
 tags:
-  - неделя
-  - айти
-  - учёба
+  - week
+  - IT
+  - studying
 
 categories:
   - Demo
 ---
 
-## Пост по прошедшей неделе
+## Last week's post
 
-### Понедельник
+### Monday
 
-  Неделя началась с учёбы на удалёнке. Я прослушала лекцию, затем съездила в гости к друзьям, сделала домашнее задание. Продуктивно получилось!
+  The week began with studying at a remote location. I listened to the lecture, then went to visit friends, did my homework. It turned out productively!
   
   
-### Вторник
+### Tuesday
 
-  Пары сегодня были интересными. На матанализе за правильные ответы раздавали конфеты.
+  The couples were interesting today. At the matanalysis, candy was distributed for the correct answers.
   
   
-### Среда
+### Wednesday
 
-  Сегодня мои любимые предметы! День прекрасен.
+  Today are my favorite subjects! The day is beautiful.
   
   
-### Четверг
+### Thursday
 
-  Сегодня мы пытались починить некорректно работающую функцию на С++, и сделали это. Ура! Вечером мы отправились в кино на фильм-катастрофу.
+  Today we tried to fix an incorrectly working function in C++, and we did it. Hurray! In the evening we went to the cinema for a disaster movie.
   
   
-### Пятница
+### Friday
 
-  Сходила на пары по английскому, сдала работы. А вечером мы отправились гулять по центру города и зашли поужинать в кафе. Идеальное завершение дня.
+  I went to English classes, passed the papers. And in the evening we went for a walk around the city center and went to have dinner in a cafe. The perfect end to the day.
   
 ### P.S.
 
-  Благодарю за прочтение! Такие посты будут выходить раз в 3 недели. Следуйте за мной, чтобы не пропустить ничего интересного.
+  Thank you for reading! Such posts will be published once every 3 weeks. Follow me so as not to miss anything interesting.
+
 

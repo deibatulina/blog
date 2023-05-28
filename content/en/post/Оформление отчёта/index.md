@@ -1,9 +1,9 @@
 ---
-title: "Оформление отчётов"
-subtitle: Данная статья посвящена тому, как я оформляю отчёты к лабораторным работам по дисциплине Операционные системы.
+title: "Making reports"
+subtitle: This article is dedicated to the rules of making reports according to the course "Operational Systems" requirements.
 
 # Summary for listings and search engines
-summary: Данная статья посвящена тому, как я оформляю отчёты к лабораторным работам по дисциплине Операционные системы.
+summary: This article is dedicated to the rules of making reports according to the course "Operational Systems" requirements.
 
 # Link this post with a project
 projects: []
@@ -32,40 +32,40 @@ authors:
   - admin
 
 tags:
-  - отчёт
+  - report
   - markdown
-  - учёба
-  - лабораторная работа
-  - операционные системы
-  - шаблон
+  - studies
+  - laboratory work
+  - operational systems
+  - template
 
 categories:
   - Demo
 ---
 
-## Оформление отчётов
-### Начало работы
+## Making reports
+### Getting started
 
-В самом начале мы должны были клонировать репозиторий с гитхаба, который даж нам преподаватель, чтобы иметь возможность генерировать отчёты по лабораторным работам по готовым шаблонам, которые просто требуется заполнить своими данными.
+At the very beginning, we had to clone the repository from the github, which the teacher gave us, in order to be able to generate reports on laboratory work using ready-made templates that just need to be filled in with our data.
 
-### Что за отчёты?
+### What kind of reports?
 
-Все лабораторные работы должны выполняться с фиксацией снимков экрана (скриншотов), фиксирующих выполнение заданий лабораторной работы. 
+All laboratory work must be carried out with the fixation of screen shots (screenshots) that record the completion of laboratory work tasks. 
 
-### Составляющие отчёта 
+### Components of the report 
 
-Отчёт должен включать в себя:
+The report should include:
 
-1. Титульный лист с указанием номера лабораторной работы и ФИО студента.
-2. Формулировка цели работы.
-3. Описание результатов выполнения задания:
-– скриншоты (снимки экрана), фиксирующие выполнение лабораторной работы;
-– листинги (исходный код) программ (если они есть);
-– результаты выполнения программ (текст или снимок экрана в зависимости от
-задания).
-4. Выводы, согласованные с целью работы.
-5. Ответы на контрольные вопросы.
+1. The title page with the number of the laboratory work and the full name of the student.
+2. Formulation of the purpose of the work.
+3. Description of the results of the task:
+– screenshots (screenshots) that record the performance of laboratory work;
+– listings (source code) of programs (if any);
+– program execution results (text or screenshot depending on
+the task).
+4. Conclusions agreed with the purpose of the work.
+5. Answers to security questions.
 
-### Формат отчётов
+### Report format
 
-Отчёт пишется в Markdown, затем с помощью команды make генерируется в форматы: docx и pdf благодаря использованию makefile.
+The report is written in Markdown, then using the make command it is generated in docx and pdf formats thanks to the use of makefile.

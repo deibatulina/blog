@@ -1,9 +1,9 @@
 ---
-title: "Языки научного программирования"
-subtitle: Спасибо, что читаете мой блог! Эта статья посвящена языкам научного программирования.
+title: "Scientific programming languages"
+subtitle: Thank you for reading my blog. This article is dedicated to scientific programming languages.
 
 # Summary for listings and search engines
-summary: В этой статье мы разберёмся, что такое научные языки программирования, в каких сферах они применяются и каково их назначение.
+summary: Thank you for reading my blog. This article is dedicated to scientific programming languages.
 
 # Link this post with a project
 projects: []
@@ -42,21 +42,21 @@ categories:
   - Demo
 ---
 
-## Языки научного программирования
+## Scientific programming languages
 
-  В компьютерном программировании научный язык программирования может относиться к двум степеням одного и того же понятия.
+  In computer programming, a scientific programming language can refer to two degrees of the same concept.
 
-  В широком смысле научный язык программирования - это язык программирования, который широко используется для вычислительной науки и вычислительной математики. В этом смысле C /C ++ и Python можно считать научными языками программирования.
+  In a broad sense, a scientific programming language is a programming language that is widely used for computational science and computational mathematics. In this sense, C/C++ and Python can be considered scientific programming languages.
 
-  В более широком смысле научный язык программирования - это тот, который разработан и оптимизирован для использования математических формул и матриц. Такие языки характеризуются не только наличием библиотек, выполняющих математические или научные функции, но и синтаксисом самого языка. Например, ни C ++, ни Python не имеют встроенных матричных типов или функций для матричной арифметики (сложение, умножение и т.д.); вместо этого эта функциональность становится доступной через стандартные библиотеки. Языки научного программирования в более широком смысле включают ALGOL, APL, Fortran, J, Julia, Maple, MATLAB и R.
+  In a broader sense, a scientific programming language is one that is designed and optimized to use mathematical formulas and matrices. Such languages are characterized not only by the presence of libraries that perform mathematical or scientific functions, but also by the syntax of the language itself. For example, neither C++ nor Python have built-in matrix types or functions for matrix arithmetic (addition, multiplication, etc.); instead, this functionality becomes available through standard libraries. Scientific programming languages in a broader sense include ALGOL, APL, Fortran, J, Julia, Maple, MATLAB and R.
 
-  Языки научного программирования не следует путать с научным языком в целом, который в широком смысле обозначает более высокие стандарты точности, корректности и сжатости, ожидаемые от практиков научного метода.
+  Scientific programming languages should not be confused with scientific language in general, which in a broad sense denotes higher standards of accuracy, correctness and conciseness expected from practitioners of the scientific method.
 
-## Примеры
+## Examples
 
-### Линейная алгебра
+### Linear algebra
 
-  Научные языки программирования предоставляют средства для работы с линейной алгеброй. Например, следующая программа на языке научного программирования Julia решает систему линейных уравнений:
+  Scientific programming languages provide tools for working with linear algebra. For example, the following program in the Julia scientific programming language solves a system of linear equations:
 
 ```
 A = rand(20, 20)  # A - матрица 20x20
@@ -64,11 +64,11 @@ b = rand(20)      # b - вектор из 20 элементов
 x = A\b           # x - решение A * x = b
 ```
 
-  Работа с большими векторами и матрицами является ключевой особенностью этих языков, поскольку линейная алгебра закладывает основу для математической оптимизации, которая, в свою очередь, обеспечивает основные приложения, такие как глубокое обучение.
+Working with large vectors and matrices is a key feature of these languages, as linear algebra lays the foundation for mathematical optimization, which in turn provides basic applications such as deep learning.
   
-### Математическая оптимизация
+### Mathematical optimization
 
-  На научном языке программирования мы можем вычислять оптимумы функций с синтаксисом, близким к математическому языку. Например, следующий код Julia находит минимум многочлена 
+  In a scientific programming language, we can calculate the optimum of functions with a syntax close to a mathematical language. For example, the following Julia code finds the minimum of a polynomial
 
 $$ P(x,y)=x^2-3*x*y+5*y^2-7*y+3. $$
 
@@ -78,12 +78,13 @@ $$ P(x,y)=x^2-3*x*y+5*y^2-7*y+3. $$
 P(x,y) = x^2 - 3x*y + 5y^2 - 7y + 3
 
 z₀ = [ 0.0
-       0.0 ]     # отправная точка для алгоритма оптимизации
+       0.0 ]     
 
-optimize(z -> P(z...), z₀, Ньютон();
-         автодифференцирование = : вперед)
+optimize(z -> P(z...), z₀, Newton();
+         )
 ```
 
-  В этом примере используется методНьютона для минимизации. Современные научные языки программирования будут использовать автоматическое дифференцирование для вычисления градиентов и мешанинных значений функции, задаваемой в качестве входных данных; ср. дифференцируемое программирование. Здесь для этой задачи было выбрано автоматическое прямое дифференцирование. Старые научные языки программирования, такие как почтенный Fortran, потребовали бы от программиста передать рядом с оптимизируемой функцией функцию, которая вычисляет градиент, и функцию, которая вычисляет гессиан.
+  This example uses Newton's method to minimize. Modern scientific programming languages will use automatic differentiation to calculate gradients and hash values of a function given as input; cf. differentiable programming. Here automatic direct differentiation was chosen for this task. Old scientific programming languages, such as the venerable Fortran, would require the programmer to pass next to the optimized function a function that calculates the gradient and a function that calculates the Hessian.
 
-  С большим знанием функции, которую нужно минимизировать, можно использовать более эффективные алгоритмы. Например, выпуклая оптимизация обеспечивает более быстрые вычисления, когда функция является выпуклой, квадратичное программирование обеспечивает более быстрые вычисления, когда функция является максимально квадратичной по своим переменным, и линейное программирование, когда функция является максимально линейной.
+  With more knowledge of the function to be minimized, more efficient algorithms can be used. For example, convex optimization provides faster calculations when the function is convex, quadratic programming provides faster calculations when the function is maximally quadratic in its variables, and linear programming when the function is maximally linear.
+

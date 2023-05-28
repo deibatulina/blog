@@ -34,7 +34,7 @@ en:
 
 # Uncomment the lines below to configure your website in a second language.
 ru:
-  languageCode: ru-ru
+  languageCode: ru
   contentDir: content/ru
   title: Академик
   params:

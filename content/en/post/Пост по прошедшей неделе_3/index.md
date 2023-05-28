@@ -1,9 +1,9 @@
 ---
-title: "Пост по прошедшей неделе 3.0"
-subtitle: Эта неделя выдалась насыщенной на события! Чтобы узнать подробнее, читайте дальше!
+title: "Post about last week 3.0"
+subtitle: This week was thrilling!
 
 # Summary for listings and search engines
-summary: Эта неделя выдалась насыщенной на события! Чтобы узнать подробнее, читайте дальше!
+summary: This week was thrilling!
 
 # Link this post with a project
 projects: []
@@ -32,43 +32,43 @@ authors:
   - admin
 
 tags:
-  - неделя
-  - айти
-  - учёба
-  - полёт на самолёте
-  - поездка домой
+  - airplane
+  - studying
+  - IT
+  - week
+  - trip_to_home
 
 categories:
   - Demo
 ---
 
-## Пост по прошедшей неделе
+## Last week's post
 
-### Понедельник
+### Monday
 
-  Неделя началась с учёбы на удалёнке. Я заработала баллы за активность на лекции и отправилась гулять с друзьями. Затем вечером мне нужно было улетать обратно в Москву. Вернулась я поздно, зато долетела без приключений.
+  The week began with studying at a remote location. I earned points for being active at the lecture and went for a walk with friends. Then in the evening I had to fly back to Moscow. I returned late, but I flew without incident.
   
   
-### Вторник
+### Tuesday
 
-  Сегодня на матанализе было интересно. Потом я пошла на тренировку.
+  It was interesting at the matanalysis today. Then I went to practice.
   
   
-### Среда
+### Wednesday
 
-  Я заработала баллы за активность на семинаре по мат.логике, а также успешно сдала коллоквиум по аналитической геометрии на 10/10!
-  
-  
-### Четверг
+  I earned points for my activity at the mat seminar.logic, and also successfully passed the colloquium on analytical geometry for 10/10!
 
-  Сегодня я сделала всё, что запланировала и сходила на учёбу.
-  
-  
-### Пятница
 
-  Сходила на пары по английскому, сдала работы. Приготовила ужин и посмотрела интересный фильм.
+### Thursday
+
+  Today I did everything I had planned and went to school.
+  
+  
+### Friday
+
+  I went to English classes, passed the papers. I cooked dinner and watched an interesting movie.
   
 ### P.S.
 
-  Благодарю за прочтение! Такие посты будут выходить раз в 3 недели. Следуйте за мной, чтобы не пропустить ничего интересного.
+  Thank you for reading! Such posts will be published once every 3 weeks. Follow me so as not to miss anything interesting.
 

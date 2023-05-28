@@ -1,9 +1,9 @@
 ---
-title: "Языки разметки. Markdown"
-subtitle: Добро пожаловать! Данная статья посвящена языку разметки Markdown, его синтаксису и назначению. Также вы узнаете, что такое языки разметки и для чего они применяются. Заваривайте чай, устраивайтесь поудобнее и начните осваивать Markdown прямо сейчас!
+title: "Markdown languages. Markdown"
+subtitle: This article includes an information about markdown languages!
 
 # Summary for listings and search engines
-summary: Всё, что вы хотели знать о языках разметки.
+summary: This article includes an information about markdown languages!
 
 # Link this post with a project
 projects: []
@@ -38,52 +38,52 @@ categories:
   - Demo
 ---
 
-## Что такое языки разметки и с чем их едят?
+## What are markup languages and what are they eaten with?
   
-  Если вы впервые слышите это словосочетание, то эта статья определённо для вас! Итак, Язы́к разме́тки (текста) в компьютерной терминологии — набор символов или последовательностей символов, вставляемых в текст для передачи информации о его отображении или строении. Принадлежит классу компьютерных языков. Текстовый документ, написанный с использованием языка разметки, содержит не только сам текст (как последовательность слов и знаков препинания), но и дополнительную информацию о различных его участках — например, указание на заголовки, выделения, списки и т. д. В более сложных случаях язык разметки позволяет вставлять в документ интерактивные элементы и содержание других документов.
-Следует отметить, что язык разметки неполон по Тьюрингу и обычно не считается языком программирования.
+  If this is the first time you hear this phrase, then this article is definitely for you! So, a markup language (text) in computer terminology is a set of characters or sequences of characters inserted into a text to transmit information about its display or structure. Belongs to the class of computer languages. A text document written using a markup language contains not only the text itself (as a sequence of words and punctuation marks), but also additional information about its various sections — for example, an indication of titles, selections, lists, etc. In more complex cases, the markup language allows you to insert interactive elements and the contents of other documents into the document.
+It should be noted that the markup language is incomplete by Turing and is not usually considered a programming language.
 
-## Логическая и визуальная разметки
+## Logical and visual markup
   
-  Различают логическую и визуальную разметки. В первом случае речь идёт только о том, какую роль играет данный участок документа в его общей структуре (например, «данная строка является заголовком»). Во втором — определяется, как именно будет отображаться этот элемент (например, «данную строку следует отображать жирным шрифтом»). Идея языков разметки состоит в том, что визуальное отображение документа должно автоматически получаться из логической разметки и не зависеть от его непосредственного содержания. Это упрощает автоматическую обработку документа и его отображение в различных условиях (например, один и тот же файл может по-разному отображаться на экране компьютера, мобильного телефона и на печати, поскольку свойства этих устройств вывода существенно различаются). Однако это правило часто нарушается: например, создавая документ в редакторе наподобие MS Word, пользователь может выделять заголовки жирным шрифтом, но нигде не указывать, что эта строка является заголовком.
+  There are logical and visual markup. In the first case, we are talking only about what role this section of the document plays in its overall structure (for example, "this line is the title"). In the second, it determines exactly how this element will be displayed (for example, "this line should be displayed in bold"). The idea of markup languages is that the visual representation of a document should be automatically derived from logical markup and not depend on its immediate content. This simplifies the automatic processing of the document and its display in different conditions (for example, the same file may be displayed differently on a computer screen, mobile phone and print, since the properties of these output devices differ significantly). However, this rule is often violated: for example, when creating a document in an editor like MS Word, the user can highlight the titles in bold, but not indicate anywhere that this line is the title.
   
-## Примеры языков разметки
+## Examples of markup languages
   
-  Языки разметки используются везде, где требуется получение форматированного текста[en] на основании одного лишь текста: в типографии (SGML, TeX, PostScript, RTF), пользовательских интерфейсах компьютеров (Microsoft Word, OpenOffice), Всемирной Сети (HTML, XHTML, XML, WML, VML, PGML, SVG, XBRL). Довольно распространён и Markdown, о котором пойдёт речь дальше.
+  Markup languages are used wherever it is required to obtain formatted text based on text alone: in typography (SGML, TeX, PostScript, RTF), computer user interfaces (Microsoft Word, OpenOffice), the World Wide Web (HTML, XHTML, XML, WML, VML, PGML, SVG, XBRL). Markdown is also quite common, which will be discussed further.
   
-## Синтаксис Markdown
+## Markdown Syntax
 
-**Оформление элементов текста в Markdown:**
+Formatting of text elements in Markdown:
   
-1. Заголовки:
+1. Headings:
 
-Чтобы создать заголовок, используем знак # (кол-во решёток соответствует уровню заголовка).
+To create a header, use the # sign (the number of lattices corresponds to the header level).
 
-2. Тип начертания:
+2. Type of font:
 
-Полужирное начертание (** с двух сторон). Полужирное + курсивное начертание (*** с двух сторон).
+Bold font (** on both sides). Bold + italics (*** on both sides).
 
-3. Цитирование (>): Ставится знак больше и далее пишется цитата.
+3. Quoting (>): A larger sign is placed and then a quote is written.
 
-4. Списки:
+4. Lists:
 
-Маркированный (неупорядоченный) список (Обозначаем элементы списка тире или звёздочками).
+A bulleted (unordered) list (Denoting the list items with dashes or asterisks).
 
-Вложение списков (используем отступы) перед кажды подпунктом.
+Embedding lists (using indents) before each sub-item.
 
-Упорядоченный список (используем цифры):
-1.Пункт 1;
-2.Пункт 2;
-3.Пункт 3.
+Ordered list (using numbers):
+1.Item 1;
+2. Item 2;
+3. Item 3.
 
-Чтобы вложить один список в другой, также используем отступы.
+To nest one list into another, we also use indents.
 
-5. Гиперссылки (в квадратных скобках пишется название ссылки, а в круглых рядом - веб-сайт).
+5. Hyperlinks (the name of the link is written in square brackets, and the website is written in round brackets next to it).
 
-6. Оформление кода (код оформляется символами ``` сверху и снизу):
+6. Code design (the code is designed with the symbols ` ` above and below):
 
-8. Оформление картинок:
-Чтобы вставить в текст иллюстрацию, нужно использовать следующий синтаксис (![указываем название изображения](относительный путь к изображению)) (рис. @fig:001):
+8. Design of images:
+To insert an illustration into the text, you need to use the following syntax (!specify the name of the image) (Fig. @fig:001):
 
 {#fig:001 width=70%}
 

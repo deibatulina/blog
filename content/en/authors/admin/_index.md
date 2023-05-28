@@ -14,28 +14,28 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Студентка
+role: Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: РУДН
+  - name: PFUR
     url: https://rudn.ru
 
 # Short bio (displayed in user profile at end of posts)
-bio: Студентка 1-го курса факультета физико-математических и естественных наук РУДН.
+bio: 1st year undergraduate student "Computer and Information Science".
 
 # Interests to show in About widget
 interests:
-  - Искусственный интеллект
-  - Математика
-  - Дизайн
-  - Программирование
+  - Artificial Intelligence
+  - Mathematics
+  - Design
+  - Programming
 
 # Education to show in About widget
 education:
   courses:
-    - course: Компьютерные и информационные науки
-      institution: РУДН
+    - course: Computer and Information Science
+      institution: PFUR
       year: 2022
 
 # Social/Academic Networking
@@ -69,6 +69,6 @@ email: ''
 highlight_name: true
 ---
 
-Дарья Ибатулина - студентка 1-го курса факультета физико-математических и естественных наук Российского Университета Дружбы Народов.
+Darya Ibatulina - 1st year undergraduate student "Computer and Information Science".
 {style="text-align: justify;"}
 

@@ -1,9 +1,9 @@
 ---
-title: "Пост по прошедшей неделе 1.0"
-subtitle: Эта неделя выдалась насыщенной на события! Чтобы узнать подробнее, читайте дальше!
+title: "Post about last week 1.0"
+subtitle: This week was full of events! To learn more, read an article!
 
 # Summary for listings and search engines
-summary: Эта неделя выдалась насыщенной на события! Чтобы узнать подробнее, читайте дальше!
+summary: This week was full of events! To learn more, read an article!
 
 # Link this post with a project
 projects: []
@@ -32,39 +32,40 @@ authors:
   - admin
 
 tags:
-  - неделя
-  - айти
-  - учёба
+  - week
+  - IT
+  - studying
 
 categories:
   - Demo
 ---
 
-## Пост по прошедшей неделе
+## Last week's post
 
-### Понедельник
+### Monday
 
-  Началась моя неделя с учебного понедельника на удалёнке. У меня было две пары подряд: математическая логика и технология программирования. Потом я села за домашнее задание, коего у нас, к сожалению, довольно много. Закончив с домашкой, я отправилась в супермаркет за продуктами, а потом готовила еду: свои любимые котлетки с картошкой и овощной салатик. Вечером я готовилась к следующему учебному дню и легла спать относительно рано, в 23:00, чтобы на следующее утро поехать к первой паре в свой любимый университет.
+  My week began with a school Monday at a remote location. I had two pairs in a row: mathematical logic and programming technology. Then I sat down for homework, of which, unfortunately, we have quite a lot. After finishing my homework, I went to the supermarket for groceries, and then I cooked food: my favorite cutlets with potatoes and a vegetable salad. In the evening, I was preparing for the next school day and went to bed relatively early, at 23:00, so that the next morning I could go to the first couple at my favorite university.
   
-### Вторник
+### Tuesday
 
-  Утром я проснулась и поняла, что проспала и в университет я, разумеется, не поехала. Осталась дома, снова решая домашку, чтобы освободить себе выходные. А потом я вспомнила, что нахожусь на больничном официально и этот день не будет считаться прогулом.
+  In the morning I woke up and realized that I had overslept and, of course, I did not go to university. I stayed at home, doing my homework again to free up the weekend for myself. And then I remembered that I was officially on sick leave and this day would not be considered truancy.
   
   
-### Среда
+### Wednesday
 
-  8 марта! Мы с моей подругой отправились гулять по городу, нам подарили по чудесному букету тюльпанчиков, мы поели роллов и вечером я отправилась в театр на спектакль “Онегин”. Представление было поистине шикарным! Домой я вернулась поздно, сразу решив, что в четверг к первой паре я не пойду.
+  March 8th! My friend and I went for a walk around the city, we were presented with a wonderful bouquet of tulips, we ate rolls and in the evening I went to the theater to see the play “Onegin”. The performance was truly gorgeous! I returned home late, immediately deciding that I would not go to the first couple on Thursday.
   
   
-### Четверг
+### Thursday
 
-  Случилось чудо, и к первой паре я пошла! Этот день выдался отличным: мальчики поздравили нас с прошедшим праздником, подарили капкейки и открытки.
+  A miracle happened, and I went to the first couple! This day turned out to be great: the boys congratulated us on the last holiday, presented cupcakes and postcards.
   
   
-### Пятница
+### Friday
 
-  Утром я делала домашнее задание, а днём отправилась в университет на выступление по Модулю переводчика. Мы оттанцевали, и вместо пар нас отпустили домой. Вечером я готовила доклад по истории. Прекрасный день!
+  In the morning I did my homework, and in the afternoon I went to the university for a speech on the Translator Module. We danced, and instead of couples we were allowed to go home. In the evening I was preparing a history report. Beautiful day!
   
 ### P.S.
 
-  Благодарю за прочтение! Такие посты будут выходить раз в 3 недели. Следуйте за мной, чтобы не пропустить ничего интересного.
+  Thank you for reading! Such posts will be published once every 3 weeks. Follow me so as not to miss anything interesting.
+

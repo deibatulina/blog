@@ -1,9 +1,9 @@
 ---
-title: "Системы контроля версий. Git"
-subtitle: Добро пожаловать! Данная статья посвящена системам контроля версий, их применению и функциям. Также вы узнаете много нового про самую распространённую в мире систему контроля версий Git. Устраивайтесь поудобнее и приступайте к чтению!
+title: "VCs. Git"
+subtitle: Welcome! This article is dedicated to VCs, their use and functions. Also you will learn more about the most used VCS in the worla - Git.
 
 # Summary for listings and search engines
-summary: Данная статья посвящена системам контроля версий, их применению и функциям. Также вы узнаете много нового про самую распространённую в мире систему контроля версий Git. Устраивайтесь поудобнее и приступайте к чтению!
+summary: Welcome! This article is dedicated to VCs, their use and functions. Also you will learn more about the most used VCS in the worla - Git
 
 # Link this post with a project
 projects: []
@@ -40,49 +40,50 @@ categories:
   - Demo
 ---
 
-## Системы контроля версий. Git
+## Version control systems. Git
 
-## Управление версиями. Git.
+## Version control. Git.
 
-Системы контроля версий (ВКС, внгл. VCS - Vesion Control Systems) применяются при работе нескольких человек над каким-либо проектом. Они позволяют сделать откат к предыдущим версиям проекта, не потеряв при этом новых наработок и внесённых в проект изменений. К примеру, разработчики выложили новую версию проекта, однако в ней обнаружились ошибки. Чтобы не потерять изменения и исправить ошибки, благодаря системам контроля версий есть возможность вернуться к старому, рабочему варианту, и затем устранить недоработки.
+Version control systems (VCS, vngl. VCS - Vesion Control Systems) are used when several people are working on a project. They allow you to roll back to previous versions of the project without losing new developments and changes made to the project. For example, the developers posted a new version of the project, but there were errors in it. In order not to lose changes and correct errors, thanks to version control systems, it is possible to return to the old, working version, and then eliminate the flaws.
 
-У пользователей, в свою очередь, есть возможность посмотреть, что именно поменялось, и сравнить новую версию со старой. Разработчики видят, кто и какие внёс изменения в проект, чтобы в случае чего знать, с кого спросить.
+Users, in turn, have the opportunity to see what exactly has changed and compare the new version with the old one. Developers see who and what changes have been made to the project, so that if anything happens, they know who to ask.
 
-Конечно, можно просто копировать проект в другой каталог, такой подход часто применяется из-за своей простоты, но имеет множество недостатков:
+Of course, you can simply copy the project to another directory, this approach is often used because of its simplicity, but it has many disadvantages:
 
-* избыточность (дублируется весь код, а не только изменения);
-* нет механизмов для распределения работы между несколькими разработчиками;
-* нет данных о том что именно изменилось (обычно пишут history файл с общей информацией об изменениях).
+* redundancy (all code is duplicated, not just changes);
+* there are no mechanisms for distributing work between multiple developers;
+* there is no data on what exactly has changed (usually they write a history file with general information about the changes).
 
-Для решения части из этих проблем были разработаны локальные СКВ. Одной из первых и наиболее популярных СКВ такого типа являлась RCS, которая была разработана в 1985 году. Для каждого файла, зарегистрированного в системе, она хранит полную историю изменений, причём для текстовых файлов используется эффективный алгоритм дельта-компрессии, когда хранится только последняя версия и все межверсионные изменения. Такие СКВ решали только первую проблему - избыточность данных. Современные СКВ можно разделить на две группы: централизованные и распределенные.
+To solve some of these problems, local SLE has been developed. One of the first and most popular SLE of this type was RCS, which was developed in 1985. For each file registered in the system, it stores a complete history of changes, and for text files, an effective delta compression algorithm is used, when only the latest version and all interversion changes are stored. Such SLE solved only the first problem - data redundancy. Modern SLE can be divided into two groups: centralized and distributed.
 
-## Централизованные системы контроля версий
+## Centralized version control systems
 
-Следующей основной проблемой оказалась необходимость сотрудничать с разработчиками за другими компьютерами. Чтобы решить её, были созданы централизованные системы контроля версий (ЦСКВ). В таких системах, например CVS, Subversion и Perforce, есть центральный сервер, на котором хранятся все файлы под версионным контролем, и ряд клиентов, которые получают копии файлов из него. Много лет это было стандартом для систем контроля версий.
+The next major problem was the need to collaborate with developers on other computers. To solve it, centralized version control systems (CSCs) were created. In such systems, for example, CVS, Subversion and Perforce, there is a central server on which all files are stored under versioning control, and a number of clients who receive copies of files from it. This has been the standard for version control systems for many years.
 
-Такой подход имеет множество преимуществ, особенно перед локальными СКВ. К примеру, все знают, кто и чем занимается в проекте. У администраторов есть чёткий контроль над тем, кто и что может делать, и, конечно, администрировать ЦСКВ намного легче, чем локальные базы на каждом клиенте.
+This approach has many advantages, especially over local SLE. For example, everyone knows who and what is doing in the project. Administrators have clear control over who can do what, and, of course, it is much easier to administer the CSCS than local databases on each client.
 
-Однако при таком подходе есть и несколько серьёзных недостатков. Наиболее очевидный — централизованный сервер является уязвимым местом всей системы. Если сервер выключается на час, то в течение часа разработчики не могут взаимодействовать, и никто не может сохранить новой версии своей работы. Если же повреждается диск с центральной базой данных и нет резервной копии, вы теряете абсолютно всё — всю историю проекта, разве что за исключением нескольких рабочих версий, сохранившихся на рабочих машинах пользователей. Локальные системы контроля версий подвержены той же проблеме: если вся история проекта хранится в одном месте, вы рискуете потерять всё.
+However, with this approach, there are several serious drawbacks. The most obvious one is that a centralized server is a vulnerable point of the entire system. If the server is shut down for an hour, then developers cannot interact for an hour, and no one can save a new version of their work. If the disk with the central database is damaged and there is no backup, you lose absolutely everything — the entire history of the project, except for a few working versions preserved on users' working machines. Local version control systems are subject to the same problem: if the entire project history is stored in one place, you risk losing everything.
 
-## Распределённые системы контроля версий
+## Distributed version control systems
 
-И в этой ситуации в игру вступают распределённые системы контроля версий. В таких системах как Git, Mercurial, Bazaar или Darcs клиенты не просто выгружают последние версии файлов, а полностью копируют весь репозиторий (репозиторий, в простонародье репа, это место, где хранятся и поддерживаются какие-либо данные). При этом можно выделить центральный репозиторий (условно), в который будут отправляться изменения из локальных и, с ним же эти локальные репозитории будут синхронизироваться. Поэтому в случае, когда “умирает” сервер, через который шла работа, любой клиентский репозиторий может быть скопирован обратно на сервер, чтобы восстановить базу данных. Каждый раз, когда клиент забирает свежую версию файлов, он создаёт себе полную копию всех данных. Кроме того, в большей части этих систем можно работать с несколькими удалёнными репозиториями.
-На сегодняшний день стандартом де-факто стала распределенная система контроля версий - GIT, но в старых больших проектах вполне могут встретиться устаревшие СКВ (например, популярная в свое время Subversion).
+And in this situation, distributed version control systems come into play. In systems such as Git, Mercurial, Bazaar, or Darcs, clients do not just download the latest versions of files, but completely copy the entire repository (a repository, in the vulgar turnip, is a place where any data is stored and maintained). At the same time, it is possible to allocate a central repository (conditionally) to which changes from local ones will be sent and, with it, these local repositories will be synchronized. Therefore, in the case when the server through which the work was carried out “dies”, any client repository can be copied back to the server to restore the database. Every time a client picks up a fresh version of the files, he creates himself a full copy of all the data. In addition, in most of these systems, you can work with several remote repositories.
+To date, the de facto standard has become a distributed version control system - GIT, but in old large projects, outdated SLE may well occur (for example, Subversion, which was popular at the time).
 
-## Основы GIT
+## GIT Basics
 
-Почти все операции — локальные
-Для совершения большинства операций в Git’е необходимы только локальные файлы и ресурсы, т.е. обычно информация с других компьютеров в сети не нужна. К примеру, чтобы показать историю проекта, Git’у не нужно скачивать её с сервера, он просто читает её прямо из вашего локального репозитория. Поэтому историю вы увидите практически мгновенно. Если вам нужно просмотреть изменения между текущей версией файла и версией, сделанной месяц назад, Git может взять файл месячной давности и вычислить разницу на месте, вместо того чтобы запрашивать разницу у СКВ-сервера или качать с него старую версию файла и делать локальное сравнение.
-Кроме того, работа локально означает, что практически все можно сделать без доступа к Сети. Если вы в самолёте или в поезде и хотите немного поработать, можно спокойно делать коммиты, а отправить их, как только станет доступна сеть.
+Almost all operations are local
+To perform most operations in Git, only local files and resources are needed, i.e. usually information from other computers on the network is not needed. For example, to show the project history, Git doesn't need to download it from the server, it just reads it directly from your local repository. Therefore, you will see the story almost instantly. If you need to view the changes between the current version of the file and the version made a month ago, Git can take a month-old file and calculate the difference on the spot, instead of requesting the difference from the SLE server or downloading an old version of the file from it and making a local comparison.
+In addition, working locally means that almost everything can be done without network access. If you are on a plane or on a train and want to work a little, you can safely make commits and send them as soon as the network becomes available.
 
-Чаще всего данные в Git только добавляются Практически все действия, которые вы совершаете в Git’е, только добавляют данные в базу. Очень сложно заставить систему удалить данные или сделать что-то неотменяемое. Можно, как и в любой другой СКВ, потерять данные, которые вы ещё не сохранили, но как только они зафиксированы, их очень сложно потерять, особенно если вы регулярно отправляете изменения в другой репозиторий.
+Most often, data is only added to Git, Almost all actions that you perform in Git only add data to the database. It is very difficult to force the system to delete data or do something irrevocable. It is possible, as in any other SLE, to lose data that you have not saved yet, but once they are committed, it is very difficult to lose them, especially if you regularly send changes to another repository.
 
-## Три состояния файлов
+## Three file states
 
-В Git’е файлы могут находиться в одном из трёх состояний: зафиксированном, изменённом и подготовленном. “Зафиксированный” значит, что файл уже сохранён в вашей локальной базе. К изменённым относятся файлы, которые поменялись, но ещё не были зафиксированы. Подготовленные файлы — это изменённые файлы, отмеченные для включения в следующий коммит.
+In Git, files can be in one of three states: committed, modified, and prepared. “Committed” means that the file has already been saved in your local database. Modified files include files that have changed, but have not yet been committed. Prepared files are modified files marked for inclusion in the next commit.
 
-Стандартный рабочий процесс с использованием Git’а выглядит примерно так:
+The standard workflow using Git looks something like this:
 
-1. Вы вносите изменения в файлы в своём рабочем каталоге.
-2. Подготавливаете файлы, добавляя их слепки в область подготовленных файлов.
-3. Делаете коммит, который берёт подготовленные файлы и помещает их в каталог Git’а на постоянное хранение.
+1. You make changes to files in your working directory.
+2. Prepare files by adding their casts to the prepared files area.
+3. Make a commit that takes the prepared files and puts them in the Git directory for permanent storage.
+
